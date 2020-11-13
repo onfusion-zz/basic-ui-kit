@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap");
+/* font-family: 'Oswald', sans-serif; */
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: #333333;
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Form Element CSS Style */
+
+form {
+	padding: 15px;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+label {
+	/* background-color: red; */
+	display: block;
+	font-size: 16px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+input,
+select,
+textarea {
+	/* background-color: green; */
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	color: #777777;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	line-height: 20px;
+	margin-bottom: 15px;
+	outline: none;
+	padding: 10px 15px;
+	width: 100%;
+}
+input:focus,
+input:hover {
+	border: 1px solid #aaaaaa;
+}
+
+input[type="file"],
+input[type="radio"],
+input[type="checkbox"],
+input[type="button"],
+input[type="reset"] {
+	display: inline-block;
+	padding: 0;
+	width: auto;
+}
+
+input[type="file"] {
+	padding: 10px 15px;
+}
+
+textarea {
+	height: 100px;
+}
+
+fieldset {
+	border: 1px solid #aaaaaa;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	padding: 25px;
+}
+
+legend {
+	color: #333333;
+	font-size: 16px;
+	padding: 0;
+}

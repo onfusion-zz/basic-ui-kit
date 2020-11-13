@@ -16,7 +16,145 @@
 
 	<body>
 		<!-- Code here -->
+		<form action="index.html" method="">
+			<fieldset>
+				<legend>Persoanl information:</legend>
 
+				<label for="name">First Name:</label>
+				<input type="text" placeholder="First name">
+
+				<label for="name">Last Name:</label>
+				<input type="text" placeholder="Last name">
+
+				<label for="gender">Gender:</label>
+				<input type="radio" name="gender" value="Male" checked /> Male
+				<input type="radio" name="gender" value="Female" /> Female
+
+				<label for="name">Your Email:</label>
+				<input type="email" placeholder="Your Email">
+
+				<label for="name">Phone:</label>
+				<input type="tel" placeholder="Phone Number">
+
+				<label for="name">Country:</label>
+				<select name="" id="">
+					<option value="">Pak</option>
+					<option value="">Ind</option>
+					<option value="">Chn</option>
+					<option value="">Aus</option>
+					<option value="">Cand</option>
+					<option value="">Itl</option>
+					<option value="">USA</option>
+					<option value="">UK</option>
+				</select>
+				
+				<label for="name">City:</label>
+				<select name="" id="">
+					<optgroup label="Punjab">
+						<option value="">City 1</option>
+						<option value="">City 2</option>
+						<option value="">City 3</option>
+						<option value="">City 4</option>
+					</optgroup>
+
+					<optgroup label="KPK">
+						<option value="">City 1</option>
+						<option value="">City 2</option>
+						<option value="">City 3</option>
+						<option value="">City 4</option>
+					</optgroup>
+
+					<optgroup label="Blochistan">
+						<option value="">City 1</option>
+						<option value="">City 2</option>
+						<option value="">City 3</option>
+						<option value="">City 4</option>
+					</optgroup>
+
+					<optgroup label="Sindh">
+						<option value="">City 1</option>
+						<option value="">City 2</option>
+						<option value="">City 3</option>
+						<option value="">City 4</option>
+					</optgroup>
+				</select>
+			</fieldset>
+			
+			<!-- <br> -->
+			
+			<fieldset>
+				<legend>Education Information:</legend>
+				
+				<label for="matric">Matric:</label>
+
+				<input type="radio" name="matric" value="Yes" /> Yes
+				<input type="radio" name="matric" value="No" /> No
+
+				<label for="intermdiat">Intermdiat:</label>
+
+				<input type="radio" name="intermdiat" value="Yes" /> Yes
+				<input type="radio" name="intermdiat" value="No" /> No
+
+				<label for="graduation">Graduation:</label>
+
+				<input type="radio" name="graduation" value="Yes" /> Yes
+				<input type="radio" name="graduation" value="No" /> No
+
+				<label for="master">Master:</label>
+
+				<input type="radio" name="master" value="Yes" /> Yes
+				<input type="radio" name="master" value="No" /> No
+
+				<label for="mphil">M Phil:</label>
+
+				<input type="radio" name="mphil" value="Yes" /> Yes
+				<input type="radio" name="mphil" value="No" /> No
+
+				<label for="phd">PHD:</label>
+
+				<input type="radio" name="phd" value="Yes" /> Yes
+				<input type="radio" name="phd" value="No" /> No
+			</fieldset>
+
+			<!-- <br> -->
+
+			<fieldset>
+				<legend>Atachments:</legend>
+
+				<label for="resume">Upload your resume:</label>
+				<input type="file" />
+
+				<label for="resume">Upload Certificates:</label>
+				<input type="file" />
+
+				<label for="resume">Upload your CNIC:</label>
+				<input type="file" />
+
+				<label for="resume">Upload your documents:</label>
+				<input type="file" />
+			</fieldset>
+
+			<!-- <br> -->
+
+			<fieldset>
+				<legend>Comments:</legend>
+
+				<textarea name="" id="" cols="80" rows="5"></textarea>
+			</fieldset>
+
+			<!-- <br> -->
+
+			<fieldset>
+				<legend>Agreement and T&C:</legend>
+
+				<input type="checkbox" name="policy" value="contract" />I signed off thie contract
+				<input type="checkbox" name="policy" value="t&c" />I agree with Terms & Conditions
+				<input type="checkbox" name="policy" value="policy" />I agree with Pricay Policy
+			</fieldset>
+
+			<button type="submit">Button</button>
+			<input type="reset" value="Input Rest Button">
+		</form>
 	</body>
 
 </html>
