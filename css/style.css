@@ -56,7 +56,9 @@ select:focus,
 textarea:hover,
 textarea:focus,
 input:focus,
-input:hover {
+input:hover,
+textarea:focus,
+textarea:hover {
 	border: 1px solid #aaaaaa;
 }
 
@@ -86,7 +88,20 @@ fieldset {
 }
 
 legend {
-	color: #333333;
+	color: green;
 	font-size: 16px;
 	padding: 0;
+}
+
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+	width: 200px;
+	height: 35px;
+	border-radius: 7px;
+	background-color: green;
+	color: #fff;
+	border-color: rgba(0, 0, 0, 0.2);
+	font-size: 16px;
 }
