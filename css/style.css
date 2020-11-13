@@ -51,6 +51,10 @@ textarea {
 	width: 100%;
 }
 
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
 input:focus,
 input:hover,
 textarea:focus,
