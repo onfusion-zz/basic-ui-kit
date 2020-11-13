@@ -58,7 +58,6 @@ textarea:hover {
 	border: 1px solid #aaaaaa;
 }
 
-
 input[type="file"],
 input[type="radio"],
 input[type="checkbox"],
@@ -70,6 +69,25 @@ input[type="reset"] {
 }
 
 input[type="file"] {
+	cursor: pointer;
+	padding: 10px 15px;
+}
+
+::file-selector-button {
+	background: green;
+	border: 1px solid green;
+	border-radius: 5px;
+	color: white;
+	margin-right: 5px;
+	padding: 10px 15px;
+}
+
+::-webkit-file-upload-button {
+	background: green;
+	border: 1px solid green;
+	border-radius: 5px;
+	color: white;
+	margin-right: 5px;
 	padding: 10px 15px;
 }
 
