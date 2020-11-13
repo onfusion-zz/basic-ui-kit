@@ -50,6 +50,11 @@ textarea {
 	padding: 10px 15px;
 	width: 100%;
 }
+
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
 input:focus,
 input:hover {
 	border: 1px solid #aaaaaa;
