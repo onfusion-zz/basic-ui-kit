@@ -1,0 +1,20 @@
+{
+  "name": "basic-ui-kit",
+  "version": "1.0.0",
+  "description": "UI kit using plain html and css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onfusion/basic-ui-kit.git"
+  },
+  "author": "Jawad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onfusion/basic-ui-kit/issues"
+  },
+  "homepage": "https://github.com/onfusion/basic-ui-kit#readme",
+  "dependencies": {}
+}
